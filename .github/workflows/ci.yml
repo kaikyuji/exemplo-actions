@@ -17,5 +17,5 @@ jobs: # Trabalhos a serem executados
               distribution: 'temurin' # Distribuição do JDK
               java-version: '17' # Versão do JDK
 
-      - name: Build with Maven # Nome do passo, nesse caso, buildar com Maven
-        run: mvn -B package -DskipTests # Comando a ser executado
+          - name: Build with Maven # Nome do passo, nesse caso, buildar com Maven
+            run: mvn -B package -DskipTests # Comando a ser executado
