@@ -1,6 +1,11 @@
 name: Exemplo de CI
 
 on:
+    pull_request:
+      branches:
+        - main
+        - develop
+      types: [ opened, reopened ]
     push: # Evento que irá disparar a ação 
         branches: [ main ] # Branch que irá disparar a ação
 
