@@ -12,7 +12,4 @@ class ExemploActionsApplicationTests {
 
 }
 
-
-
-
-
+// teste
